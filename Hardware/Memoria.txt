@@ -1,0 +1,1 @@
+Memoria Flash 16Mbit SPI: AT45DB161D
