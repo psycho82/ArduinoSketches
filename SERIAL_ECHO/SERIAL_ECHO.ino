@@ -1,8 +1,8 @@
 String content = "";
 char character;
+char endChar = ';'; //carattere di fine stringa
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   Serial.println("Boot...");
 }
@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   while(Serial.available()) {
       character = Serial.read();
-      if (character == ';') {
+      if (character == endChar) {
         Serial.println(content);
         content = "";
       }else{
