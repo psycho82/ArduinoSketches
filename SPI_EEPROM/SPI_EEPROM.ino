@@ -1,11 +1,11 @@
 #include <SPI.h>
-
+//opcodes
 #define DATAOUT 11//MOSI
 #define DATAIN  12//MISO 
 #define SPICLOCK  13//sck
 #define SLAVESELECT 10//ss
 
-//opcodes
+
 #define WREN  6
 #define WRDI  4
 #define RDSR  5
