@@ -1,5 +1,5 @@
 #include <SPI.h>
-//opcodes
+//opcodes 2
 #define DATAOUT 11//MOSI
 #define DATAIN  12//MISO 
 #define SPICLOCK  13//sck
